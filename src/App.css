@@ -1,0 +1,139 @@
+/* Other rules */
+
+/* COMMON RULES */
+
+body {
+
+    background-color: #F1F1F1;
+    font-family: 'Roboto', sans-serif;
+}
+
+.App {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1280px;
+    margin: auto;
+}
+
+h1 {
+    margin-bottom: 0px;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 160px;
+    background-color: white
+}
+
+/* NAVBAR */
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    background-color: #333333;
+    color: white;
+    font-weight: 700;
+    padding: 0px 20px;
+}
+
+nav ul {
+    padding-left: 0px;
+    display: flex;
+
+}
+
+nav li {
+    padding-right: 60px;
+    list-style-type: none;
+    width: fit-content;
+
+}
+
+/* MAIN */
+main {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+
+
+/* Main Content */
+.main-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 950px;
+    justify-content: space-between;
+
+}
+
+.main-content-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    height: fit-content;
+    background-color: white;
+    padding: 20px 30PX;
+
+}
+
+.main-content img {
+    display: flex;
+    height: 150px;
+    width: 890px;
+    object-fit: cover;
+    align-self: center;
+}
+
+
+/* Side Content */
+.side-content {
+    flex: display;
+    max-width: 300px;
+    height: fit-content;
+    background-color: white;
+}
+
+.side-content-item {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    background-color: white;
+    margin-bottom: 20px;
+
+}
+
+.side-content img {
+    height: 179px;
+    width: 255px;
+    object-fit: cover;
+    display: flex;
+    align-self: center;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #DDDDDD;
+    height: 63px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+footer span {
+    font-weight: 700;
+}
